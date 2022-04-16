@@ -1,44 +1,35 @@
+body {
+  background-image: linear-gradient(135deg,rgba(200,0,0,1),rgba(0,255,0,2),rgba(0,0,100,3));
+}
+.image-crop {
+  max-width: 100px;
+  height:auto;
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+img {
+  height: auto;
+  width: 100%;
+  border-radius : 50%;
+}
 
-  h3 {
-    color : #b41724;
-    border: 1px solid white;
-  }
-  .image-crop {
-    max-width: 100px;
-    height:auto;
-  }
-  div {
+b {
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media only screen and (max-width:768px) {
+  .intro {
     display: block;
   }
-  
-  img {
-    height: auto;
-    width: 100%;
-    border-radius : 50%;
-    border: 2px solid royalblue;
+  .img-align {
+    position: relative;
+    left:39%;
   }
-  
-  ul :hover {
-    background-color:cadetblue
-  }
-  b {
-    font-size: 2em;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  .container1 :hover {
-    background-color: grey;
-  }
-  .container2 :hover {
-    background-color: cadetblue;
-  }
-  .container3 :hover {
-    background-color: slategray;
-  }
-  .container4 :hover {
-    background-color: darkslategrey;
-  }
-  
+}
